@@ -11,4 +11,4 @@ Progress:
   
 
 Next:
-  - Array implementation for Queue
+  - Implementation for Queue
