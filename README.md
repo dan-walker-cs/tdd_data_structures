@@ -8,7 +8,7 @@ Progress:
   - Linked List implementation for Stack
   - Linked List implementation for MinStack
   - Linked List implementation for MaxStack
-  
+  - Implementation for Queue
 
 Next:
-  - Implementation for Queue
+  - Implementation for Priority Queue
