@@ -6,7 +6,7 @@ public class ListStack<T> {
 
     ListNode top;
     // testing purposes
-    int size = 0;
+    int size;
 
     private class ListNode<T> {
         private T data;
@@ -25,6 +25,7 @@ public class ListStack<T> {
 
     public ListStack() {
         this.top = new ListNode();
+        this.size = 0;
     }
 
     public <T> Object pop() throws EmptyStackException {
