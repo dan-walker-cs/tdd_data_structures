@@ -5,7 +5,8 @@ Collection of data structure implementations using a Test Driven Development str
 Progress:
 
   - Array implementation for Stack
+  - Linked List implementation for Stack
   
 
 Next:
-  - Linked List implementation for Stack
+  - Array implementation for Queue
