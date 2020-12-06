@@ -6,6 +6,7 @@ Progress:
 
   - Array implementation for Stack
   - Linked List implementation for Stack
+  - Linked List implementation for MinStack
   
 
 Next:
