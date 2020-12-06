@@ -1,4 +1,7 @@
+package stackTests;
+
 import org.junit.jupiter.api.*;
+import stacks.ArrayStack;
 
 class ArrayStackTest {
     ArrayStack test_stack;

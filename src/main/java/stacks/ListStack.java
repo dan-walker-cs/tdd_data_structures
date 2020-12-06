@@ -1,10 +1,12 @@
+package stacks;
+
 import java.util.EmptyStackException;
 
 public class ListStack<T> {
 
-    private ListNode top;
+    ListNode top;
     // testing purposes
-    private int size = 0;
+    int size = 0;
 
     private class ListNode<T> {
         private T data;
@@ -21,7 +23,7 @@ public class ListStack<T> {
         }
     }
 
-    ListStack() {
+    public ListStack() {
         this.top = new ListNode();
     }
 

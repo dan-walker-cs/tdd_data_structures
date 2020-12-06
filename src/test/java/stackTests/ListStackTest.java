@@ -1,4 +1,7 @@
+package stackTests;
+
 import org.junit.jupiter.api.*;
+import stacks.ListStack;
 
 import java.util.EmptyStackException;
 
@@ -12,7 +15,7 @@ public class ListStackTest {
     }
 
     @Test
-    @DisplayName("after calling the ListStack constructor ")
+    @DisplayName("after calling the stacks.ListStack constructor ")
     void testStackConstructor() {
         Assertions.assertNotNull(test_stack,
                 "test_stack should not be initialized");
