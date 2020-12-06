@@ -2,13 +2,13 @@ package stacks;
 
 import java.util.EmptyStackException;
 
-public class MinStack extends ListStack {
+public class MinStack extends ListStack<Integer> {
 
     ListStack<Integer> stack;
     Integer min;
 
     public MinStack() {
-        this.stack = new ListStack<Integer>();
+        this.stack = new ListStack<>();
         this.min = null;
     }
 
