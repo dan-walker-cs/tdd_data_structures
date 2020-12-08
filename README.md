@@ -9,6 +9,7 @@ Progress:
   - Linked List implementation for MinStack
   - Linked List implementation for MaxStack
   - Implementation for Queue
+  - Implementation for Binary Heap
 
 Next:
   - Implementation for Priority Queue
